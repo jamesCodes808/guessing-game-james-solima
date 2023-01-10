@@ -3,12 +3,25 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+main {
+    margin-top: 2rem;
+}
+
 footer {
     margin-top: 5rem;
 }
 
 footer i {
-    margin: auto 1.5rem;
+    margin: 1rem 1.5rem;
 }
 
 footer i:hover {

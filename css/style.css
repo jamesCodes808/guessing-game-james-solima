@@ -1,0 +1,26 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+footer i {
+    margin: auto 1.5rem;
+}
+
+footer i:hover {
+    color: darkgrey;
+}
+
+footer p {
+    font-size: smaller;
+}
+
+.full-width {
+    text-align: center;
+    width: 100%;
+    background-color: darkgrey;
+}

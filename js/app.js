@@ -67,19 +67,25 @@ function onload() {
             3: ${multipleChoiceAnswers[2]}, 
             4: ${multipleChoiceAnswers[3]}, 
             5: ${multipleChoiceAnswers[4]}`);
+
             response = parseInt(response - 1);
-            if (response != 1 || 3) {
-                attempts++;
-                console.log(`response: ${response} type of: ${typeof (response)}`);
-                alert("That was wrong! Try again!");
-            } else if (response == 1 || 3) {
+
+
+            if (response == 1 || response == 3) {
                 alert(`Good job ${person}, you guessed it in ${attempts} attempts`);
                 score++
                 break;
-            } else if (attempts === 6) {
-                alert(`Sorry! ${person}, you have run out of attempts`)
-            }
-        }
+            };
+
+            if (response != 1 || response != 3) {
+                attempts++;
+                alert("That was wrong! Try again!");
+            };
+
+            if (attempts === 6) {
+                alert(`Sorry! ${person}, you have run out of attempts`);
+            };
+        };
 
     } else {
         alert("Please come back when you're ready");

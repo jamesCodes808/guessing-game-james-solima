@@ -1,7 +1,7 @@
 'use strict'; //gives us stricter syntax rules.
-setTimeout(onload, 5000)
 
 function onload() {
+
     let person = prompt('What is your name?');
 
     if (person === null || person === '') {
@@ -103,4 +103,8 @@ function onload() {
     } else {
         alert("Please come back when you're ready");
     };
+}
+
+function btnClick() {
+    onload();
 }

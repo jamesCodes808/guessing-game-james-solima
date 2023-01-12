@@ -6,6 +6,8 @@ A guessing game for 201d96
 
 A simple input and output quiz, using confirm and prompt functions
 
+![image]()
+
 ## Author: James Solima
 
 ## Links and Resources

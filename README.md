@@ -4,8 +4,7 @@
 
 A guessing game for 201d96 
 
-A simple guessing game, using confirm and prompt functions, js arrays, 
-
+A simple guessing game, using confirm and prompt functions, js arrays, and loops.
 
 
 ![image](images/lab03-accessibility.png)

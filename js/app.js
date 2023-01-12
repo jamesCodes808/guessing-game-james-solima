@@ -56,6 +56,11 @@ function onload() {
                 score++;
                 break;
             }
+
+            if (attempts == 4) {
+                alert(`You have run out of attempts, ${person}`);
+                break;
+            }
         }
 
         attempts = 0;
@@ -84,17 +89,18 @@ function onload() {
 
             if (attempts === 6) {
                 alert(`Sorry! ${person}, you have run out of attempts`);
+                break;
             };
         };
 
+        if (score > 0) {
+            alert(`Good job ${person}! You scored ${score} out of 7!`)
+        } else if (score === 0) {
+            alert(`Sorry, ${person} you didn't get any correct!`)
+        };
+
+
     } else {
         alert("Please come back when you're ready");
-    }
-
-    if (score > 0) {
-        alert(`Good job ${person}! You scored ${score} out of 7!`)
-    } else if (score === 0) {
-        alert(`Sorry, ${person} you didn't get any correct!`)
-    }
-
+    };
 }

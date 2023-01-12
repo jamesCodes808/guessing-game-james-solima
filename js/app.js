@@ -108,3 +108,11 @@ function onload() {
 function btnClick() {
     onload();
 }
+
+let easterEggBtn = document.getElementById('button')
+
+function easterEgg() {
+        alert('You got it!');
+        console.log('clicked')
+    }
+easterEggBtn.onclick(easterEgg());

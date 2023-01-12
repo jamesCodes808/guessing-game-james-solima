@@ -4,9 +4,11 @@
 
 A guessing game for 201d96 
 
-A simple input and output quiz, using confirm and prompt functions
+A simple guessing game, using confirm and prompt functions, js arrays, 
 
-![image]()
+
+
+![image](images/lab03-accessibility.png)
 
 ## Author: James Solima
 

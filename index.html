@@ -6,6 +6,12 @@
     <!-- Links CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
     <!-- FontAwesome Icons -->
     <script src="https://kit.fontawesome.com/004ffe82fe.js" crossorigin="anonymous"></script>
     <!-- Links JS  -->
@@ -15,18 +21,18 @@
 <body>
     <header class="full-width">
         <h1><i button onclick="easterEgg()" id="button" class="fa-solid fa-circle-question"></i>
-            Class 02: Guessing Game
+            Guessing Game
             <i class="fa-solid fa-circle-question"></i>
         </h1>
     </header>
     <main>
-        <section class="biography-container">
-            <h2>About James Ian Solima</h2>
+        <section class="main-container">
+            <h2 class="about-me-title">About James Ian Solima</h2>
             <section class="quick-bio-section">
                 <p>
                     My name is James Ian Solima. If you're reading this, you have failed the game or are not ready to
-                    play
-                    the game yet or you just want to learn more about me. When you're ready to start the game, press
+                    play the game yet or you just want to learn more about me. When you're ready to start the game,
+                    press
                     refresh
                     on the browser or F5
                 </p>
@@ -43,31 +49,34 @@
                     making
                     a comfortable salary.
                 </p>
+                <i class="fa-solid fa-eye eyeicon"></i>
             </section>
             <br>
             <input type="button" id="load-js" onclick="btnClick()" value="Start Guessing Game!">
-            <hr>
-            <section class="professional-exp-section">
-                <ul>Professional Experience:
-                    <li>L2 Application Production Support, BofA 2020-2022</li>
-                    <li>Full Stack Developer, HubLink, inc. 2020-2020</li>
-                    <li>Diesel Mecahnic, Army & Army NG, 2011-2021</li>
-                </ul>
-            </section>
-            <br>
-            <section class="top-ten-section">
-                <ol> My favorite Anime Shows watched in 2022
-                    <li>Chainsaw Man</li>
-                    <li>Spy x Family</li>
-                    <li>Attack on Titan</li>
-                    <li>Jujutsu Kaisen</li>
-                    <li>Erased</li>
-                    <li>Cyberpunk: Edgerunners</li>
-                    <li>Demon Slayer</li>
-                    <li>Dr. Stone</li>
-                    <li>Kotaro Lives Alone</li>
-                    <li>Tokyo Revengers</li>
-                </ol>
+            
+            <section class="list-container">
+                <section class="professional-exp-section">
+                    <ul>Professional Experience:
+                        <li>L2 App Prod Support, BofA 2020-2022</li>
+                        <li>C# Dev, HubLink, inc. 2020-2020</li>
+                        <li>Diesel Mecahnic, Army & Army NG, 2011-2021</li>
+                    </ul>
+                </section>
+                <br>
+                <section class="top-ten-section">
+                    <ol> My favorite Anime Shows watched in 2022
+                        <li>Chainsaw Man</li>
+                        <li>Spy x Family</li>
+                        <li>Attack on Titan</li>
+                        <li>Jujutsu Kaisen</li>
+                        <li>Erased</li>
+                        <li>Cyberpunk: Edgerunners</li>
+                        <li>Demon Slayer</li>
+                        <li>Dr. Stone</li>
+                        <li>Kotaro Lives Alone</li>
+                        <li>Tokyo Revengers</li>
+                    </ol>
+                </section>
             </section>
         </section>
     </main>

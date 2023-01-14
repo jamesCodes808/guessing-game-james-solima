@@ -1,40 +1,144 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     background-color: #D6E4E5;
+    margin: 0;
 }
+
+/* headings */
 
 h1 {
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 50%;
+    margin: 2.5rem auto 0 auto;
+    position: relative;
+    top: 1rem;
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5rem auto;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
 main {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
+/* header  */
+
+.full-width {
+    text-align: center;
+    background-color: #497174;
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    height: 180px;
+    padding-top: 10px;
+}
+
+/* About Me/Biography  */
+
+.quick-bio-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* List Container  */
+
+.list-container {
+    height: 10rem;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Professional exp section  */
+
+.professional-exp-section {
+    border: 2px solid black;
+    height: 176px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #EFF5F5;
+    line-height: 1.5;
+}
+
+/* Top Ten Section  */
+
+.top-ten-section {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background: #EFF5F5;
+    line-height: 1.1;
+}
+
+/* button  */
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #EB6440;
+    border-radius: 10px;
+    height: 2rem;
+    transition: 1s;
+}
+
+input:hover {
+    border-color: #EB6440;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.5em black;
+    transform: translateY(-0.25em);
+}
+
+
+/* footer  */
+
 footer {
-    margin-top: 5rem;
+    margin-top: 0;
+    width: 100%;
+    height: 5rem;
+    padding: 10px 0;
+    background-color: #497174;
 }
 
 footer i {
     margin: 1rem 1.5rem;
+    transition: 1s;
+    background-color: transparent;
 }
 
 footer i:hover {
-    color: darkgrey;
+    color: #EB6440;
+    background-color: rgba(73, 113, 116, 0.12);
+    box-shadow: 0 0.5em 0.5em -0.5em black;
+    transform: translateY(-0.25em);
 }
 
 footer p {
-    font-size: smaller;
-}
-
-.full-width {
-    text-align: center;
-    width: 100%;
-    background-color: darkgrey;
+    font-size: .5rem;
 }

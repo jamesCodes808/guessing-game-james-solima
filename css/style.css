@@ -33,9 +33,8 @@ footer p {
     font-size: smaller;
 }
 
-
 .full-width {
     text-align: center;
     width: 100%;
-    background-color: #497174;
+    background-color: darkgrey;
 }
